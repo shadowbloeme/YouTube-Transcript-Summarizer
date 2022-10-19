@@ -1,0 +1,36 @@
+.summary_box{
+    overflow-y: auto;
+    max-height: 30em;  
+    width: inherit; 
+    font-family: inherit;
+    border-bottom: 0.2px solid black;
+}
+.summary_box a{
+    font-size: medium;
+    color: rgb(232, 136, 249)
+}
+.summary_box p{
+    font-size: 18px;
+    padding: 5px;
+    color: black;
+    font-family: 'Roboto';
+    background-color: linen;
+}
+.wrapper{
+    position: relative;
+}
+.time-box,.content-box{
+    float: left;
+}
+.time-box{
+    width: 17%;
+}
+.time-box a{
+    text-decoration: none;
+}
+.content-box{
+    width: 83%;
+}
+#Load-text{
+    text-align: center;
+}

@@ -4,9 +4,9 @@ This simple Flask app generates summaries parsed from English Closed Captions.
 
 ### Features: 
 1. Generates summary on a simple click within 1-2 minutes.
-2. Timestamps are present with summary which directs to that part on clicking the timestamp.
+2. Timestamps are present with the summary.
 
-The basic strategy it uses is using ML summarizing techniques on the transcript of the video.
+This extension utilizes Machine Learning techniques to pull captions, split the video into parts, and summarize key words.
 
 ### Installation:
 1. Download the package.

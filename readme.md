@@ -1,5 +1,7 @@
 This simple Flask app generates summaries parsed from English Closed Captions.
 
+**This extension is currently in development. If you are trying it out, please refresh your YouTube video once after pressing the "Summarize" button if the Summary does not immediately load. It will load the second time on.**
+
 ### Features: 
 1. Generates summary on a simple click within 1-2 minutes.
 2. Timestamps are present with summary which directs to that part on clicking the timestamp.
@@ -7,19 +9,19 @@ This simple Flask app generates summaries parsed from English Closed Captions.
 The basic strategy it uses is using ML summarizing techniques on the transcript of the video.
 
 ### Installation:
-1. Download the client.zip file here.
+1. Download the package.
 
-2. Unzip the client.zip file.
+2. Navigate to chrome://extensions on Google Chrome
 
-3. Navigate to chrome://extensions on Google Chrome
+3. Toggle "on" developer mode
 
-4. Toggle "on" developer mode
-
-5. Upload unpacked folder
+5. Select "load unpacked" and choose the folder titled "client" from the project .zip file
 
 6. Navigate to a YouTube video with eligible English Closed Captioning.
 
 7. Press the icon logo in your Google Chrome toolbar, and press the "summarize button"
+
+**Reload the page if the summary box does not populate on the first attempt.**
 
 8. Your summary will appear directly below the YouTube video frame.
 
